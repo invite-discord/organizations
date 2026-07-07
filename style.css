@@ -291,6 +291,12 @@ input:disabled{
     align-items:center;
     justify-content:space-between;
 
+    outline:none;
+    box-shadow:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-appearance:none;
+    appearance:none;
+
 }
 
 
@@ -315,7 +321,15 @@ input:disabled{
 
 }
 
+.drop-btn:focus,
+.drop-btn:focus-visible,
+.drop-btn:active{
 
+    background:#1e1f22;
+    outline:none;
+    box-shadow:none;
+
+}
 
 
 .dropdown-menu{
