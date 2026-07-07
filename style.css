@@ -679,22 +679,23 @@ input:disabled{
 
 @media screen and (max-width:768px){
 
-    body{
-        display:block;
-        min-height:100vh;
-        padding:20px 15px;
-        overflow-x:hidden;
-        overflow-y:auto;
-    }
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px 15px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
 
-    .card{
-        width:100%;
-        max-width:430px;
-        margin:0 auto;
-        padding:24px 18px;
-        border-radius:16px;
-    }
-
+ .card{
+    width:100%;
+    max-width:430px;
+    margin:auto;
+    padding:24px 18px;
+    border-radius:16px;
+}
     /* ICON */
 
     .icon,
